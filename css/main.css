@@ -1,0 +1,59 @@
+/* #################### 全局 #################### */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body {
+    height: 100%;
+    background: #262a30;
+}
+#head{
+    height: 15%;
+    width: 90%;
+    margin: auto;
+    background-color: red;
+}
+
+#main{
+    display: flex;
+    width: 90%;
+    height: 85%;
+    margin: auto;
+    background: blue;
+}
+
+#left {
+    width: 20%;
+    height: 100%;
+    background: #262a30;
+}
+
+#right {
+    width: 80%;
+    height: 100%;
+    /* background: #b9e1b1; */
+}
+
+/* #################### 全局 #################### */
+
+/* #################### 导航 #################### */
+nav #menu {
+    float: right;
+    padding-right: 20px;
+}
+nav ul li {
+    float: left;
+    padding: 10px;
+    list-style: none;
+}
+nav ul li a{
+    color: #555;
+    font-size: 12px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    border-bottom: 1px solid;
+}
+/* #################### 导航 #################### */
